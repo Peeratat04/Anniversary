@@ -17,12 +17,12 @@ function App() {
         <div className='cart-img-1'>
         <div className='cart-img-2 flex justify-between'>
             <div className='c-img-1'>
-              <img src="public\Images\Pee.jpg" className='top-img-1 object-scale-down' alt="Pee" />
+              <img src="Images\Pee.jpg" className='top-img-1 object-scale-down' alt="Pee" />
               <p>ด.ช.พีรธัช เคนผา</p>
             </div>
             <div className='c-img-2'>
               <div className='img-d'>
-                <img src="public\Images\ดรีม.jpg" className='top-img-2' alt="Dream" /></div>
+                <img src="Images\ดรีม.jpg" className='top-img-2' alt="Dream" /></div>
               <p>ด.ญ.นันทิกานต์ ต่างใจ</p>
             </div>
             <img className='bg-cart-t' src="https://i.pinimg.com/564x/d6/08/ff/d608ff3b51c405c56357b6979a665495.jpg" alt="" />
