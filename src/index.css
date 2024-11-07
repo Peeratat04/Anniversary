@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #ed4bd7d0;
+}
+
+.Navbar{
+  background-color: white;
+  padding: 20px;
+}
+
+.body {
+  background-color: rgb(39, 39, 39);
+  height: auto;
+  margin: 0 50px 0 50px;
+  padding: 35px 0;
+}
+
+.Navbar h1{
+  text-align: center;
+}
+
+.cart-img-1{
+  justify-items: center;
+  position: relative;
+}
+
+.cart-img-2{
+  justify-content: center;
+  /* position: absolute; */
+}
+
+.bg-cart-t{
+  position: absolute;
+  border-radius: 50px;
+  width: 90%;
+  height: 260px;
+  max-width: 700px;
+}
+
+.cart-img-1 p, .cart-img-2 p{
+  color: rgb(26, 26, 26);
+  text-align: center;
+}
+
+.c-img-1{
+  padding: 20px;
+}
+
+.c-img-2{
+  padding: 15px;
+}
+
+.c-img-1, .c-img-2{
+  z-index: 2;
+  background-color: rgba(41, 41, 41, 0.51);
+  border-radius: 20px;
+  margin: 30px 20px 30px 20px;
+}
+
+.top-img-1,
+.top-img-2 {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+  /* สำหรับหน้าจอแท็บเล็ตและคอมพิวเตอร์ */
+  .top-img-1,
+  .top-img-2 {
+    width: 120px;
+    height: 120px;
+  }
+  .bg-cart-t {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* สำหรับหน้าจอคอมพิวเตอร์ */
+  .bg-cart-t {
+    width: 700px;
+  }
+  .c-img-1,
+  .c-img-2 {
+    padding: 20px;
+  }
+}
+
+/* .top-img-1, .top-img-2{
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  margin-bottom: 15px;
+} */
+
+.img-d{
+  padding-left: 12px;
+}
+
